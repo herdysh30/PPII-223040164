@@ -65,7 +65,7 @@ public class Tugas extends JFrame {
         sliderFrekuensi.setPaintTicks(true);
         sliderFrekuensi.setPaintLabels(true);
         
-        // Customizing tick labels (1, 20, 40, 60, 80)
+        // Custom tick labels (1, 20, 40, 60, 80, 100)
         Dictionary<Integer, JLabel> labelTable = new Hashtable<>();
         labelTable.put(1, new JLabel("1"));
         labelTable.put(20, new JLabel("20"));
@@ -74,7 +74,7 @@ public class Tugas extends JFrame {
         labelTable.put(80, new JLabel("80"));
         labelTable.put(100, new JLabel("100"));
 
-        sliderFrekuensi.setLabelTable(labelTable); // Set custom labels
+        sliderFrekuensi.setLabelTable(labelTable); 
 
         // Password dan Confirm Password
         JLabel labelPassword = new JLabel("Password: ");
@@ -183,7 +183,7 @@ public class Tugas extends JFrame {
         menuBar.add(menu);
         this.setJMenuBar(menuBar);
 
-        // Tambahkan komponen ke JFrame
+        //Komponen JFrame
         this.add(button);
         this.add(textFieldNama);
         this.add(labelNama);
